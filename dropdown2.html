@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: lightblue;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #b6b6b6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px pink;
+	padding: 13px 18px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+</style>
+</head>
+<body>
+
+<h1> learning about hovers </h1>
+<p> Learning how to use hovers with a mouse. </p>
+
+<div class="dropdown">
+	<span>Hover over me </span>
+	<div class="dropdown-content">
+	<p> Hey you!! </p>
+	</div>
+	</div>
+	
+</body>
+</html>
