@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+	width:400px;
+	height:200px;
+	background-color:lightpink;
+	border:2px solid black;
+}
+div#myDiv1 {
+	-ms-transform:matrix(1, -0.4,0,1, 0, 0);
+	transform:matrix(1, -0.4,0, 1, 0, 0);
+}
+div#myDiv2{
+	-ms-transform:matrix(1,0, 0.4,1,100,1);
+	tranform:matrix(1,0, 0.4,1,100,1);
+}
+</style>
+</head>
+<body>
+
+<h2>Learning about matrix</h2>
+
+<div>
+This is a normal div element.
+</div>
+
+<div id="myDiv1">
+Using the matrix () method.
+</div>
+
+<div id="myDiv2">
+Another use of the matrix method.
+</div>
+
+</body>
+</html>
