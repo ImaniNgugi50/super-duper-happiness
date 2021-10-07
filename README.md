@@ -1,2 +1,2 @@
 # super-duper-happiness
-learning web dev.
+learning both html and CSS for web dev.
